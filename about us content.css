@@ -1,0 +1,164 @@
+div{
+  display:inline-block;
+  float:left;
+  color:#fff;
+  font-size:40px;
+
+}
+.zero{
+  width:100%;
+  height:250px;
+  background:#fff;
+}
+.one{
+  width:50%;
+  height:250px;
+  background:#ffcccc;
+}
+
+.two{
+  width:50%;
+  height:250px;
+  background-image:url('https://get.wallhere.com/photo/train-1427773.jpg');
+  background-size:760px 270px;
+  background-repeat:repeat;
+}
+
+.three{
+  width:100%;
+  height:330px;
+}
+
+.four{
+  width:20%;
+  height:330px;
+  background:#ff80ff;
+}
+.five{
+  width:60%;
+  height:330px;
+  background:white;
+}
+.six{
+  width:20%;
+  height:330px;
+  background: #ff66a3;
+}
+.seven{
+  width:100%;
+  height:130px;
+  
+}
+
+.eight{
+  width:50%;
+  height:130px;
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1hiDxOlAsr90x2mVviFX9Er3lPtmrzXuxlZyU-pJmM3kXrmXJ41skT4_tvNAJiN37eD8&usqp=CAU');
+  background-size:760px 150px;
+  background-repeat:repeat;
+}
+.nine{
+  width:50%;
+  height:130px;
+  background:#751aff;
+}
+
+html {
+  font-family: "didot";
+}
+
+h2 {
+  font-size: 60px;
+  margin: 30;
+  writing-mode: vertical-lr;
+  text-align: center;
+  color:#33001a;
+  line-height: 3.3;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.rotate {
+   transform: rotate(180deg);
+}
+
+p{
+	margin: 30;
+	font-family:cursive;
+	font-size:20px;
+	color:black;
+	justify-content: center;
+	align-content: center;
+}
+h3{
+	
+	font-family:arial;
+	font-size:15px;
+	color:black;
+	
+}
+
+
+.border {
+	padding: 5px;
+	background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%),
+		linear-gradient(110deg, #c5e7d7 34%, #88d8b0 34%);
+	background-size: 400% 400%;
+	height: 245px;
+	width: 760px;
+	
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+}
+.inner-cutout {
+	padding: 15px 0;
+	display: block;
+	background-color: #ff6f69; /*#ff6f69*/
+
+	margin: 2%;
+	padding-bottom: 10px;
+	height: 180px;
+	width: 720px;
+	background: radial-gradient(#ff6f69, #ff8b87);
+	background-size: 300%;
+	
+}
+.knockout {
+	vertical-align: middle;
+	text-align: center;
+	font-family: "Pacifico", cursive;
+	font-size: 32pt;
+	color: blue;
+	color: #fff;
+	background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%),
+		linear-gradient(110deg, #c5e7d7 34%, #88d8b0 34%);
+	background-size: 100%;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.knockout {
+	animation: Gradient 5s ease infinite;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 30% 50%;
+	}
+	50% {
+		background-position: 25% 50%;
+	}
+	100% {
+		background-position: 30% 50%;
+	}
+}
+
+.main {
+	width: 760px;
+	height: 270px;
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-top: 0%;
+}

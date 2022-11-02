@@ -1,0 +1,16 @@
+#square{
+	width:1200px;
+	height:680px;
+	padding:10px;
+	background-color:white;
+	border:10px solid red;
+	color:black;
+	margin-top:20px;
+	color:white;
+}
+body
+{
+	background-image:url("https://i.gifer.com/7VUN.gif");
+	background-repeat:no-repeat;
+	background-size:100%;
+}

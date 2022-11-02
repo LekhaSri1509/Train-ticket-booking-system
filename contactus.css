@@ -1,0 +1,16 @@
+#square{
+	width:800px;
+	height:630px;
+	padding:10px;
+	background-color:white;
+	border:5px solid orange;
+	color:black;
+	margin-top:50px;
+	color:white;
+}
+body
+{
+	background-image:url("http://gvpstohana.in/wp-content/uploads/2014/03/121212.gif");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
